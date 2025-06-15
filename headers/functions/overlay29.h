@@ -116,7 +116,7 @@ void SetLeaderActionFields(enum action action_id);
 void ClearMonsterActionFields(struct action_data* monster_action);
 void SetMonsterActionFields(struct action_data* monster_action, enum action action_id);
 void SetActionPassTurnOrWalk(struct action_data* monster_action, enum monster_id monster_id);
-struct item* GetItemToUseByIndex(struct entity* entity, union item_index item_index);
+struct item* GetItemToUseByIndex(struct entity* entity, struct item_index_8* item_index);
 struct item* GetItemToUse(struct entity* entity, int param_index, undefined param_3);
 enum action GetItemAction(enum item_id item_id);
 void RemoveUsedItem(struct entity* entity, int param_index);

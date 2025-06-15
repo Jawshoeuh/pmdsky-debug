@@ -1388,7 +1388,7 @@ overlay29:
         Returns a pointer to the item that is about to be used by a monster given its index.
         
         r0: Entity pointer
-        r1: Item index
+        r1: Item index pointer
         return: Pointer to the item
     - name: GetItemToUse
       address:
